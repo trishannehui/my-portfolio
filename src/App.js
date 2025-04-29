@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 
-// Hero Section
 function Hero() {
   return (
     <section className="hero">
@@ -19,7 +18,7 @@ function Hero() {
   </section>
 );
 }
-// About Section
+
 function About() {
   return (
     <section className="about" id="about">
@@ -53,7 +52,6 @@ function Hobbies() {
   );
 }
 
-// Contact Section
 function Contact() {
   return (
     <section className="contact" id="contact">
@@ -64,7 +62,6 @@ function Contact() {
   );
 }
 
-// Footer Section
 function Footer() {
   return (
     <footer className="footer">
@@ -73,7 +70,6 @@ function Footer() {
   );
 }
 
-// Main App Component
 function App() {
   return (
     <div>
